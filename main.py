@@ -57,7 +57,7 @@ flags.DEFINE_string('data_set', 'cifar10',
 flags.DEFINE_string('model_name', 'resnet',
                     """Name of CNN model"""
                     """Choose between lenet and resnet.""")
-flags.DEFINE_integer('resnet_n', 3,
+flags.DEFINE_integer('resnet_n', 18,
                      """n for RESNET {3:20, 5:32, 7:44, 9:56, 18:110}.""")
 flags.DEFINE_integer("embedding_at", 5,
                      """position of embedding [2]""")
